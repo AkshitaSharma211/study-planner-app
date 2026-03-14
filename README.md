@@ -41,9 +41,9 @@ study-planner-app
 * Verified backend running at `http://127.0.0.1:8000`
 * Tested API documentation at `/docs`
 
-## Next Steps
-
-* Create `GET /subjects` API
-* Read data from `subjects.json`
-* Connect frontend to backend
-* Generate study plan logic
+### Day 2 – Environment Testing and Setup
+* Successfully ran FastAPI backend server
+* Verified API endpoint working in browser
+* Resolved Git merge and authentication issues
+* Activated Python virtual environment
+* Tested backend auto-reload with Uvicorn
