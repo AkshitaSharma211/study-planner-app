@@ -13,20 +13,31 @@ This project is a full-stack Study Planner application designed to help students
 
 ## Project Structure
 
-study-planner-app
+## Project Structure
+
+```
+study-planner-app/
 │
-├── backend
+├── backend/
 │   └── main.py
 │
-├── frontend
+├── frontend/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
 │
-├── data
-│   └── subjects.json
+├── data/
+│   ├── subjects.json
+│   ├── dsa.json
+│   ├── operating_system.json
+│   ├── dbms.json
+│   ├── computer_networks.json
+│   ├── coa.json
+│   ├── ai.json
+│   └── ml.json
 │
-└── database
+└── README.md
+```
 
 ## Development Log
 
@@ -47,3 +58,20 @@ study-planner-app
 * Resolved Git merge and authentication issues
 * Activated Python virtual environment
 * Tested backend auto-reload with Uvicorn
+
+### Day 3 – Subject Dataset Expansion
+
+* Added detailed subject datasets for the study planner
+* Created separate JSON files for each subject in the `data` folder
+* Added structured topics and subtopics for:
+  * Artificial Intelligence
+  * Machine Learning
+  * Computer Networks
+  * Computer Organization and Architecture
+  * DSA
+  * DBMS
+  * Operating System
+* Improved dataset organization to support automatic study plan generation
+* Prepared data layer for future backend API integration
+
+  
