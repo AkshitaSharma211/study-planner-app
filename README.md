@@ -74,4 +74,16 @@ study-planner-app/
 * Improved dataset organization to support automatic study plan generation
 * Prepared data layer for future backend API integration
 
+### Day 4 – Frontend Development Started
+
+* Set up basic frontend structure for the application
+* Began working on the user interface using **HTML, CSS, and JavaScript**
+* Planned frontend flow for the study planner:
+  * Display available subjects
+  * Allow user to select a subject
+  * Fetch topics from backend API
+* Prepared frontend to connect with FastAPI backend endpoints
+* Started implementing JavaScript logic to fetch data from the backend
+
+
   
